@@ -1,14 +1,7 @@
 {
     "python.testing.pytestArgs": [
-        "tests"
+        "estruturado"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./tests",
-        "-p",
-        "test*.py"
-    ]
+    "python.testing.pytestEnabled": true
 }
