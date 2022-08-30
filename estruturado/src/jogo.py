@@ -16,7 +16,7 @@ class Jogo:
     
     def jogada(self):
         jogada_player = self.player.jogar()
-        jogada_machine = self.machine.jogar()
+        jogada_machine = self.machine.jogar(jogada_player)
         self.player_deseja_sair(jogada_player)
         self.escolher_vencedor(jogada_player, jogada_machine)
     
